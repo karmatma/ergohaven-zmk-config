@@ -5,6 +5,19 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    behaviors {
+        homerow_mod: homerow_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MOD";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <230>;
+            quick-tap-ms = <220>;
+            require-prior-idle-ms = <50>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
