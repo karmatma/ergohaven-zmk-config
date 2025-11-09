@@ -46,7 +46,7 @@
         sym {
             bindings = <
 &kp TILDE  &kp EXCL  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PRCNT                           &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LPAR           &kp RPAR  &kp C_MUTE
-&trans     &kp BSLH  &kp LPAR     &kp MINUS  &kp RPAR    &kp PLUS                            &kp PLUS   &kp EQUAL      &kp LBKT   &kp RIGHT_BRACKET  &kp NUBS  &kp QUESTION
+&trans     &kp BSLH  &kp LPAR     &kp MINUS  &kp RPAR    &kp PLUS                            &kp PLUS   &kp EQUAL      &kp LBKT   &kp RIGHT_BRACKET  &kp BSLH  &kp QUESTION
 &trans     &trans    &kp STAR     &kp COLON  &kp UNDER   &kp TILDE                           &kp MINUS  &kp PIPE       &kp TILDE  &kp AMPS           &kp PIPE  &trans
                      &trans       &trans     &trans      &mo 3      &kp BACKSPACE    &trans  &trans     &trans         &trans     &trans
             >;
